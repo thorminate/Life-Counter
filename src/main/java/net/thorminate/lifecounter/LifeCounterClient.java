@@ -1,4 +1,4 @@
-package net.thorminate.lifecounter.client;
+package net.thorminate.lifecounter;
 
 import net.fabricmc.api.ClientModInitializer;
 

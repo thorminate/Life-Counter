@@ -18,11 +18,8 @@
 		"main": [
 			"net.thorminate.lifecounter.LifeCounter"
 		],
-		"fabric-datagen": [
-			"net.thorminate.lifecounter.dataGen.LifeCounterDataGenerator"
-		],
 		"client": [
-			"net.thorminate.lifecounter.client.LifeCounterClient"
+			"net.thorminate.lifecounter.LifeCounterClient"
 		]
 	},
 	"depends": {
@@ -30,8 +27,5 @@
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
