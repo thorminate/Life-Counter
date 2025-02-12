@@ -54,4 +54,8 @@ public class WorldDataManager extends PersistentState {
             (nbt, registryLookup) -> new WorldDataManager(nbt),
             LEVEL
     );
+
+    public Map<UUID, Integer> getAllPlayerLives() {
+        return playerLives;
+    }
 }
